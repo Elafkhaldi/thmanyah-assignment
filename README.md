@@ -1,32 +1,31 @@
 # thmanyah-assignment
 
+Podcast Data Analysis Project 🎧
+Overview : 
+Analyze user listening data to understand preferences and provide basic episode recommendations.
 
-مشروع تحليل بيانات بودكاست 🎧
-نبذة
-تحليل بيانات استماع المستخدمين لفهم تفضيلاتهم وتقديم توصيات مبدئية لحلقات جديدة.
+Data : 
+users.csv: User data
 
-البيانات
-users.csv: بيانات المستخدمين
+episodes.csv: Episode data
 
-episodes.csv: بيانات الحلقات
+listens.json: Listening logs
 
-listens.json: سجلات الاستماع
+Steps :
+Read, clean, and merge data.
 
-الخطوات
-قراءة وتنظيف البيانات ودمجها.
+Analyze most popular categories, listening duration differences by gender, and average episodes per user.
 
-تحليل أكثر الفئات استماعًا، مقارنة مدة الاستماع بين الجنسين، ومتوسط الحلقات المستمعة لكل مستخدم.
+Generate simple recommendations based on users’ favorite categories.
 
-توليد توصيات بسيطة بناءً على الفئات المفضلة لكل مستخدم.
+Results :
+Identified popular categories and gender-based listening behavior.
 
-النتائج
-تعرفنا على الفئات الأكثر شعبية وسلوك الاستماع بين الذكور والإناث.
+Created a basic recommendation system based on user preferences.
 
-أنشأنا نظام توصية أولي يعتمد على تفضيلات المستخدم.
-
-متطلبات
+Requirements :
 Python 3
 
 pandas
 
-matplotlib / seaborn (اختياري)
+matplotlib / seaborn (optional)
